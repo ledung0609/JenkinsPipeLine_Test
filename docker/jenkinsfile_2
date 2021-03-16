@@ -3,7 +3,7 @@ def smbt_scripts = '/home/jenkins/agent/scripts/'
 
 pipeline {
     agent{
-    	label 'agent'
+    	label 'agent_2'
     }
     
     stages {
