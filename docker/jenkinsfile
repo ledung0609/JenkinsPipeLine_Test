@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Initialize') {
             steps {
-                sh java-version
+                sh 'java-version'
                 echo 'こんちは！'
                 sh 'pwd'
             }
