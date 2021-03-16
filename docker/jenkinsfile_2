@@ -1,6 +1,3 @@
-//Jenkins Node's scripts folder
-def smbt_scripts = '/home/jenkins/agent/scripts/'
-
 pipeline {
     agent{
     	label 'agent_2'
@@ -9,9 +6,9 @@ pipeline {
     stages {
         stage('Initialize') {
             steps {
-                bat 'wmic computersystem get name'
-                cd smbt_scripts
-                call 'Hello.bat'
+                echo 'こんちは！'
+                sh 'pwd'
+                sh 'java -version'
             }
         }
     }
