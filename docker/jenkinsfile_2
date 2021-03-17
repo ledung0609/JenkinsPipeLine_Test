@@ -11,6 +11,7 @@ pipeline {
                 sh 'pwd'
                 sh 'java -version'
                 sh 'dir'
+                sh 'cd docker'
             }
         }
     }
