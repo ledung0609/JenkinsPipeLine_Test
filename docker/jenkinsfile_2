@@ -2,7 +2,7 @@ def COLOR
 
 pipeline {
     agent{
-    	label 'agent_2'
+    	label 'agent'
     }
     
     stages {
