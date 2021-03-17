@@ -10,7 +10,7 @@ pipeline {
         stage('Initialize') {
             steps {
                 //cd 'agent\\scripts\\'
-                dir
+                sh 'dir'
             }
         }
     }
