@@ -1,5 +1,5 @@
 //Jenkins Node's scripts folder
-def smbt_scripts = 'agent/scripts'
+def smbt_scripts = 'agent\\scripts\\'
 
 pipeline {
     agent{
@@ -9,8 +9,8 @@ pipeline {
     stages {
         stage('Initialize') {
             steps {
-                cd 'agent/scripts'
-                call 'Hello.bat'
+                cd 'agent\\scripts\\'
+                sh 'Hello.bat'
             }
         }
     }
