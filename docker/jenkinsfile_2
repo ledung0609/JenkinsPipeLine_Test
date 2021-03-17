@@ -9,9 +9,9 @@ pipeline {
         stage('Initialize') {
             steps {
                 sh 'pwd'
-                sh 'java -version'
                 sh 'dir'
                 sh 'cd docker'
+                sh 'dir'
             }
         }
     }
