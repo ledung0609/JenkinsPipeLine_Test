@@ -9,7 +9,7 @@ pipeline {
         stage('Initialize') {
             steps {
                 sh 'pwd'
-                sh 'dir'
+                sh 'dir JenkinsAgentForDockerContainer'
                 sh 'cd docker'
                 sh 'dir'
             }
