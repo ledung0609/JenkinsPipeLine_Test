@@ -1,5 +1,5 @@
 //Jenkins Node's scripts folder
-def smbt_scripts = '/home/jenkins/agent/scripts/'
+def smbt_scripts = 'agent/scripts'
 
 pipeline {
     agent{
