@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Initialize') {
             steps {
-                cd 'agent\\scripts\\'
+                //cd 'agent\\scripts\\'
                 sh 'Hello.bat'
             }
         }
