@@ -9,7 +9,6 @@ pipeline {
         stage('Initialize') {
             steps {
                 sh 'pwd'
-                sh 'dir agent'
                 sh 'cd docker'
                 sh 'dir'
             }
