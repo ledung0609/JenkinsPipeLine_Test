@@ -1,5 +1,4 @@
-//Jenkins Node's scripts folder
-def smbt_scripts = 'agent\\scripts\\'
+def COLOR
 
 pipeline {
     agent{
