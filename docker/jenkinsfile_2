@@ -9,7 +9,6 @@ pipeline {
     stages {
         stage('Initialize') {
             steps {
-                bat 'wmic computersystem get name'
                 cd smbt_scripts
                 call 'Hello.bat'
             }
