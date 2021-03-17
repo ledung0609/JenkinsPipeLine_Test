@@ -8,14 +8,9 @@ pipeline {
     stages {
         stage('Initialize') {
             steps {
-                //cd 'agent\\scripts\\'
+                sh 'pwd'
+                sh 'java -version'
                 sh 'dir'
-                COLOR = "green"
-                echo "color is $COLOR"
-
-                sh """COLOR=${COLOR}
-                echo $COLOR"""
-
             }
         }
     }
